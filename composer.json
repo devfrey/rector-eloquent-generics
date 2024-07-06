@@ -1,0 +1,41 @@
+{
+    "name": "devfrey/rector-eloquent-generics",
+    "description": "Small set of Rector rules for Eloquent's new generics.",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jeffrey Angenent",
+            "email": "1571879+devfrey@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "rector/rector": "^1.2",
+        "symplify/rule-doc-generator-contracts": "^11.2"
+    },
+    "require-dev": {
+        "laravel/framework": "^11.15.0",
+        "phpstan/extension-installer": "^1.4.1",
+        "phpstan/phpstan": "^1.11.7",
+        "phpunit/phpunit": "^11.2.6",
+        "symplify/phpstan-rules": "^13.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Devfrey\\RectorLaravel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        },
+        "sort-packages": true
+    }
+}

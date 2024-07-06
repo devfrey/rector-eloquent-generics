@@ -1,0 +1,8 @@
+includes:
+    - vendor/symplify/phpstan-rules/config/rector-rules.neon
+
+parameters:
+    level: 9
+    paths:
+        - src
+        - tests
