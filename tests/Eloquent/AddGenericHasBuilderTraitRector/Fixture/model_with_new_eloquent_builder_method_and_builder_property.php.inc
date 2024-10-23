@@ -29,7 +29,7 @@ use Illuminate\Database\Eloquent\Model;
 class User extends Model
 {
     /**
-     * @use \Illuminate\Database\Eloquent\HasBuilder<\App\Models\Builders\UserBuilder<$this>>
+     * @use \Illuminate\Database\Eloquent\HasBuilder<\App\Models\Builders\UserBuilder>
      */
     use \Illuminate\Database\Eloquent\HasBuilder;
     protected static string $builder = FooBuilder::class;
