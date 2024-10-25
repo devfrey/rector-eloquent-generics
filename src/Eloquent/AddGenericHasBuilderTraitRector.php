@@ -138,7 +138,7 @@ CODE_SAMPLE,
             new Doc(
                 <<<PHPDOC
                 /**
-                 * @use \Illuminate\Database\Eloquent\HasBuilder<{$builderClassName->toCodeString()}<\$this>>
+                 * @use \Illuminate\Database\Eloquent\HasBuilder<{$builderClassName->toCodeString()}>
                  */
                 PHPDOC,
             ),
